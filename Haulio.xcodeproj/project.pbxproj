@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AC5A87C2F3399DD5C245BE3 /* Pods_Haulio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB9E70F261F94364FD08ECA /* Pods_Haulio.framework */; };
+		AB6F9ED23AB236DFC0069BB4 /* Pods_HaulioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCECA7E8ACB4BBA9686E12B /* Pods_HaulioTests.framework */; };
 		F75C546E21B3BE49009AA3DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75C546D21B3BE49009AA3DC /* AppDelegate.swift */; };
 		F75C547521B3BE4A009AA3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75C547421B3BE4A009AA3DC /* Assets.xcassets */; };
 		F75C547821B3BE4A009AA3DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75C547621B3BE4A009AA3DC /* LaunchScreen.storyboard */; };
 		F75C548321B3BE4A009AA3DC /* HaulioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75C548221B3BE4A009AA3DC /* HaulioTests.swift */; };
+		F75C549321B3BFFD009AA3DC /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75C549221B3BFFD009AA3DC /* Login.storyboard */; };
+		F77E745021B3C5C800DCF3BB /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E744F21B3C5C800DCF3BB /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E8C881F55624D1A455D72A8 /* Pods-HaulioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaulioTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaulioTests/Pods-HaulioTests.release.xcconfig"; sourceTree = "<group>"; };
+		61D004CA79243F66B1023710 /* Pods-HaulioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaulioTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaulioTests/Pods-HaulioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BD865136F9601269D8198FA /* Pods-Haulio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haulio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Haulio/Pods-Haulio.release.xcconfig"; sourceTree = "<group>"; };
+		A81FE347058FC6CA314F7BE0 /* Pods-Haulio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haulio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Haulio/Pods-Haulio.debug.xcconfig"; sourceTree = "<group>"; };
+		ACB9E70F261F94364FD08ECA /* Pods_Haulio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Haulio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCECA7E8ACB4BBA9686E12B /* Pods_HaulioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaulioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75C546A21B3BE49009AA3DC /* Haulio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haulio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75C546D21B3BE49009AA3DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F75C547421B3BE4A009AA3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,6 +42,8 @@
 		F75C547E21B3BE4A009AA3DC /* HaulioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaulioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75C548221B3BE4A009AA3DC /* HaulioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaulioTests.swift; sourceTree = "<group>"; };
 		F75C548421B3BE4A009AA3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75C549221B3BFFD009AA3DC /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		F77E744F21B3C5C800DCF3BB /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC5A87C2F3399DD5C245BE3 /* Pods_Haulio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6F9ED23AB236DFC0069BB4 /* Pods_HaulioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26F977B19CA06649DE478F67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A81FE347058FC6CA314F7BE0 /* Pods-Haulio.debug.xcconfig */,
+				9BD865136F9601269D8198FA /* Pods-Haulio.release.xcconfig */,
+				61D004CA79243F66B1023710 /* Pods-HaulioTests.debug.xcconfig */,
+				1E8C881F55624D1A455D72A8 /* Pods-HaulioTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		522AA9BE5157F1A211C7B890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACB9E70F261F94364FD08ECA /* Pods_Haulio.framework */,
+				CDCECA7E8ACB4BBA9686E12B /* Pods_HaulioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F75C546121B3BE49009AA3DC = {
 			isa = PBXGroup;
 			children = (
 				F75C546C21B3BE49009AA3DC /* Haulio */,
 				F75C548121B3BE4A009AA3DC /* HaulioTests */,
 				F75C546B21B3BE49009AA3DC /* Products */,
+				26F977B19CA06649DE478F67 /* Pods */,
+				522AA9BE5157F1A211C7B890 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +109,11 @@
 		F75C546C21B3BE49009AA3DC /* Haulio */ = {
 			isa = PBXGroup;
 			children = (
-				F75C546D21B3BE49009AA3DC /* AppDelegate.swift */,
+				F77E744D21B3C40E00DCF3BB /* AppDelegate */,
+				F75C549021B3BFDD009AA3DC /* Map */,
+				F75C548F21B3BFC0009AA3DC /* Profile */,
+				F75C548E21B3BFB2009AA3DC /* JobList */,
+				F75C548D21B3BFA3009AA3DC /* Login */,
 				F75C547421B3BE4A009AA3DC /* Assets.xcassets */,
 				F75C547621B3BE4A009AA3DC /* LaunchScreen.storyboard */,
 				F75C547921B3BE4A009AA3DC /* Info.plist */,
@@ -90,6 +130,60 @@
 			path = HaulioTests;
 			sourceTree = "<group>";
 		};
+		F75C548D21B3BFA3009AA3DC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F77E744E21B3C5B200DCF3BB /* ViewControllers */,
+				F75C549121B3BFE8009AA3DC /* Storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F75C548E21B3BFB2009AA3DC /* JobList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JobList;
+			sourceTree = "<group>";
+		};
+		F75C548F21B3BFC0009AA3DC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F75C549021B3BFDD009AA3DC /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		F75C549121B3BFE8009AA3DC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F75C549221B3BFFD009AA3DC /* Login.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F77E744D21B3C40E00DCF3BB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F75C546D21B3BE49009AA3DC /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F77E744E21B3C5B200DCF3BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F77E744F21B3C5C800DCF3BB /* LoginController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F75C548721B3BE4A009AA3DC /* Build configuration list for PBXNativeTarget "Haulio" */;
 			buildPhases = (
+				F627A676D5D04752ABD1245D /* [CP] Check Pods Manifest.lock */,
 				F75C546621B3BE49009AA3DC /* Sources */,
 				F75C546721B3BE49009AA3DC /* Frameworks */,
 				F75C546821B3BE49009AA3DC /* Resources */,
+				A460AA0C4E27C90D741F4F8F /* [CP] Embed Pods Frameworks */,
+				4507AAEC81C82C6BAFFB197C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -114,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F75C548A21B3BE4A009AA3DC /* Build configuration list for PBXNativeTarget "HaulioTests" */;
 			buildPhases = (
+				582F580D1339604ED8A02479 /* [CP] Check Pods Manifest.lock */,
 				F75C547A21B3BE4A009AA3DC /* Sources */,
 				F75C547B21B3BE4A009AA3DC /* Frameworks */,
 				F75C547C21B3BE4A009AA3DC /* Resources */,
@@ -173,6 +271,7 @@
 			files = (
 				F75C547821B3BE4A009AA3DC /* LaunchScreen.storyboard in Resources */,
 				F75C547521B3BE4A009AA3DC /* Assets.xcassets in Resources */,
+				F75C549321B3BFFD009AA3DC /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,12 +284,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4507AAEC81C82C6BAFFB197C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Haulio/Pods-Haulio-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haulio/Pods-Haulio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		582F580D1339604ED8A02479 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HaulioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A460AA0C4E27C90D741F4F8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Haulio/Pods-Haulio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haulio/Pods-Haulio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F627A676D5D04752ABD1245D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Haulio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F75C546621B3BE49009AA3DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F75C546E21B3BE49009AA3DC /* AppDelegate.swift in Sources */,
+				F77E745021B3C5C800DCF3BB /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +519,7 @@
 		};
 		F75C548821B3BE4A009AA3DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81FE347058FC6CA314F7BE0 /* Pods-Haulio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -358,6 +538,7 @@
 		};
 		F75C548921B3BE4A009AA3DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD865136F9601269D8198FA /* Pods-Haulio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +557,7 @@
 		};
 		F75C548B21B3BE4A009AA3DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D004CA79243F66B1023710 /* Pods-HaulioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -397,6 +579,7 @@
 		};
 		F75C548C21B3BE4A009AA3DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8C881F55624D1A455D72A8 /* Pods-HaulioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
