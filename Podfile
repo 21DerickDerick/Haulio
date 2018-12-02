@@ -8,6 +8,9 @@ target 'Haulio' do
   # Pods for Haulio
 
 pod 'GoogleSignIn'
+pod 'Kingfisher', '~> 4.8.0'
+pod 'IQKeyboardManagerSwift', '~> 5.0.0'
+
 
   target 'HaulioTests' do
     inherit! :search_paths

@@ -8,18 +8,29 @@
 
 import UIKit
 import GoogleSignIn
+import CoreLocation
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var navigationController: UINavigationController!
+    let locationManager = CLLocationManager()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        // TODO: Clean up with command Pattern
+        
         // Initialize sign-in
         GIDSignIn.sharedInstance().clientID = "794550090659-002vt2ui8rthh505m6gc4cj5nelm2utq.apps.googleusercontent.com"
+        
+        // Initialize Location
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.requestAlwaysAuthorization()
+        
+        // IQ keyboard
+        IQKeyboardManager.sharedManager().enable = true
         
         return true
     }

@@ -32,20 +32,23 @@ extension LoginController: GIDSignInUIDelegate {
 extension LoginController: GIDSignInDelegate {
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
         if let error = error {
+            // Todo: Show Alert
             print("\(error.localizedDescription)")
         } else {
-            // Perform any operations on signed in user here.
-            let userId = user.userID                  // For client-side use only!
-            let idToken = user.authentication.idToken // Safe to send to the server
-            let fullName = user.profile.name
-            let givenName = user.profile.givenName
-            let familyName = user.profile.familyName
-            let email = user.profile.email
-
+            var driver: Driver?
+            guard let givenName = user.profile.givenName else { return }
             
+            if user.profile.hasImage, let profilePhoto = user.profile.imageURL(withDimension: 80) {
+                driver = Driver(givenName: givenName, profilePhotoUrl: profilePhoto)
+            } else {
+                driver = Driver(givenName: givenName)
+            }
+        
             let sb = UIStoryboard(name: "JobList", bundle: nil)
             guard let vc = sb.instantiateViewController(withIdentifier: "JobListController") as? JobListController else {return}
+            vc.driver = driver
             present(vc, animated: true, completion: nil)
+            
         }
     }
     
