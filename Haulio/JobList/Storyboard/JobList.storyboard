@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Job List Controller-->
+        <scene sceneID="lvn-eU-DB9">
+            <objects>
+                <viewController storyboardIdentifier="JobListController" id="P3z-Lm-cBC" customClass="JobListController" customModule="Haulio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UKa-tB-4UL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OkE-tA-Wgc" userLabel="TopView">
+                                <rect key="frame" x="0.0" y="20" width="375" height="64"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haulio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMw-Gw-61Q">
+                                        <rect key="frame" x="132.5" y="10" width="109" height="44"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="32"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUr-ar-CSC">
+                                        <rect key="frame" x="335" y="20" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="jHS-Uc-Ptn"/>
+                                            <constraint firstAttribute="width" constant="24" id="wB4-gB-C93"/>
+                                        </constraints>
+                                        <state key="normal" image="logout"/>
+                                        <connections>
+                                            <action selector="logoutButtonTapped:" destination="P3z-Lm-cBC" eventType="touchUpInside" id="LPc-wh-MF6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="9TI-L9-tm3"/>
+                                    <constraint firstItem="jMw-Gw-61Q" firstAttribute="centerX" secondItem="OkE-tA-Wgc" secondAttribute="centerX" id="Eag-r9-3KV"/>
+                                    <constraint firstAttribute="trailing" secondItem="GUr-ar-CSC" secondAttribute="trailing" constant="16" id="RCS-Mf-yPh"/>
+                                    <constraint firstItem="GUr-ar-CSC" firstAttribute="centerY" secondItem="OkE-tA-Wgc" secondAttribute="centerY" id="WyJ-nP-x63"/>
+                                    <constraint firstItem="jMw-Gw-61Q" firstAttribute="centerY" secondItem="OkE-tA-Wgc" secondAttribute="centerY" id="rnh-st-mFx"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Chi-zT-p4Y">
+                                <rect key="frame" x="0.0" y="84" width="375" height="519"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="2oz-vH-aXz">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jobs Available" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4P8-2y-F3r">
+                                            <rect key="frame" x="16" y="11" width="107.5" height="22"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="4P8-2y-F3r" firstAttribute="leading" secondItem="2oz-vH-aXz" secondAttribute="leading" constant="16" id="TpC-TB-S2X"/>
+                                        <constraint firstItem="4P8-2y-F3r" firstAttribute="centerY" secondItem="2oz-vH-aXz" secondAttribute="centerY" id="tqx-Ph-qzo"/>
+                                    </constraints>
+                                </view>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MRd-VM-1Ta" userLabel="BottomView">
+                                <rect key="frame" x="0.0" y="603" width="375" height="64"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="pyM-65-kop"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OkE-tA-Wgc" firstAttribute="top" secondItem="WLw-Tt-qgl" secondAttribute="top" id="0oF-FB-mgp"/>
+                            <constraint firstItem="WLw-Tt-qgl" firstAttribute="trailing" secondItem="MRd-VM-1Ta" secondAttribute="trailing" id="1Rn-F5-a02"/>
+                            <constraint firstItem="WLw-Tt-qgl" firstAttribute="bottom" secondItem="MRd-VM-1Ta" secondAttribute="bottom" id="3yj-3X-Dfe"/>
+                            <constraint firstItem="Chi-zT-p4Y" firstAttribute="leading" secondItem="WLw-Tt-qgl" secondAttribute="leading" id="A67-8s-6bx"/>
+                            <constraint firstItem="Chi-zT-p4Y" firstAttribute="top" secondItem="OkE-tA-Wgc" secondAttribute="bottom" id="X05-Sa-mVz"/>
+                            <constraint firstItem="OkE-tA-Wgc" firstAttribute="leading" secondItem="WLw-Tt-qgl" secondAttribute="leading" id="fqe-9d-3ED"/>
+                            <constraint firstItem="MRd-VM-1Ta" firstAttribute="leading" secondItem="WLw-Tt-qgl" secondAttribute="leading" id="i1O-LH-fyx"/>
+                            <constraint firstItem="WLw-Tt-qgl" firstAttribute="trailing" secondItem="OkE-tA-Wgc" secondAttribute="trailing" id="jP5-pO-BEj"/>
+                            <constraint firstItem="MRd-VM-1Ta" firstAttribute="top" secondItem="Chi-zT-p4Y" secondAttribute="bottom" id="xSP-Fv-fqA"/>
+                            <constraint firstItem="WLw-Tt-qgl" firstAttribute="trailing" secondItem="Chi-zT-p4Y" secondAttribute="trailing" id="yhm-sj-oYP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WLw-Tt-qgl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U6G-7B-MdU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="185" y="179"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logout" width="64" height="64"/>
+    </resources>
+</document>

@@ -15,6 +15,8 @@
 		F75C548321B3BE4A009AA3DC /* HaulioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75C548221B3BE4A009AA3DC /* HaulioTests.swift */; };
 		F75C549321B3BFFD009AA3DC /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75C549221B3BFFD009AA3DC /* Login.storyboard */; };
 		F77E745021B3C5C800DCF3BB /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E744F21B3C5C800DCF3BB /* LoginController.swift */; };
+		F77E745321B3C9AB00DCF3BB /* JobList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77E745221B3C9AB00DCF3BB /* JobList.storyboard */; };
+		F77E745621B3CC8E00DCF3BB /* JobListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E745521B3CC8E00DCF3BB /* JobListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F75C548421B3BE4A009AA3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F75C549221B3BFFD009AA3DC /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		F77E744F21B3C5C800DCF3BB /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F77E745221B3C9AB00DCF3BB /* JobList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JobList.storyboard; sourceTree = "<group>"; };
+		F77E745521B3CC8E00DCF3BB /* JobListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 		F75C548E21B3BFB2009AA3DC /* JobList */ = {
 			isa = PBXGroup;
 			children = (
+				F77E745421B3CC7100DCF3BB /* ViewControllers */,
+				F77E745121B3C99E00DCF3BB /* Storyboard */,
 			);
 			path = JobList;
 			sourceTree = "<group>";
@@ -180,6 +186,22 @@
 			isa = PBXGroup;
 			children = (
 				F77E744F21B3C5C800DCF3BB /* LoginController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F77E745121B3C99E00DCF3BB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F77E745221B3C9AB00DCF3BB /* JobList.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F77E745421B3CC7100DCF3BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F77E745521B3CC8E00DCF3BB /* JobListController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -269,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77E745321B3C9AB00DCF3BB /* JobList.storyboard in Resources */,
 				F75C547821B3BE4A009AA3DC /* LaunchScreen.storyboard in Resources */,
 				F75C547521B3BE4A009AA3DC /* Assets.xcassets in Resources */,
 				F75C549321B3BFFD009AA3DC /* Login.storyboard in Resources */,
@@ -368,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77E745621B3CC8E00DCF3BB /* JobListController.swift in Sources */,
 				F75C546E21B3BE49009AA3DC /* AppDelegate.swift in Sources */,
 				F77E745021B3C5C800DCF3BB /* LoginController.swift in Sources */,
 			);
