@@ -23,8 +23,17 @@ class JobListController: UIViewController {
     }
 
     @IBAction func logoutButtonTapped(_ sender: UIButton) {
-        GIDSignIn.sharedInstance().signOut()
-        self.dismiss(animated: true, completion: nil)
+        
+        let alertController = UIAlertController(title: "Haulio", message: "Are you sure you want to log out?", preferredStyle: UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .default, handler: nil))
+        
+        let settingsAction = UIAlertAction(title: "Proceed", style: .default) { (_) -> Void in
+            GIDSignIn.sharedInstance().signOut()
+            self.dismiss(animated: true, completion: nil)
+        }
+        
+        alertController.addAction(settingsAction)
+        present(alertController, animated: true, completion: nil)
     }
     
 }
