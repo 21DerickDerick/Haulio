@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F75C546E21B3BE49009AA3DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75C546D21B3BE49009AA3DC /* AppDelegate.swift */; };
+		F75C547021B3BE49009AA3DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75C546F21B3BE49009AA3DC /* ViewController.swift */; };
+		F75C547321B3BE49009AA3DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75C547121B3BE49009AA3DC /* Main.storyboard */; };
+		F75C547521B3BE4A009AA3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75C547421B3BE4A009AA3DC /* Assets.xcassets */; };
+		F75C547821B3BE4A009AA3DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75C547621B3BE4A009AA3DC /* LaunchScreen.storyboard */; };
+		F75C548321B3BE4A009AA3DC /* HaulioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75C548221B3BE4A009AA3DC /* HaulioTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F75C547F21B3BE4A009AA3DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75C546221B3BE49009AA3DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75C546921B3BE49009AA3DC;
+			remoteInfo = Haulio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F75C546A21B3BE49009AA3DC /* Haulio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haulio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75C546D21B3BE49009AA3DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F75C546F21B3BE49009AA3DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F75C547221B3BE49009AA3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F75C547421B3BE4A009AA3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F75C547721B3BE4A009AA3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F75C547921B3BE4A009AA3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75C547E21B3BE4A009AA3DC /* HaulioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaulioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75C548221B3BE4A009AA3DC /* HaulioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaulioTests.swift; sourceTree = "<group>"; };
+		F75C548421B3BE4A009AA3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F75C546721B3BE49009AA3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75C547B21B3BE4A009AA3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F75C546121B3BE49009AA3DC = {
+			isa = PBXGroup;
+			children = (
+				F75C546C21B3BE49009AA3DC /* Haulio */,
+				F75C548121B3BE4A009AA3DC /* HaulioTests */,
+				F75C546B21B3BE49009AA3DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F75C546B21B3BE49009AA3DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F75C546A21B3BE49009AA3DC /* Haulio.app */,
+				F75C547E21B3BE4A009AA3DC /* HaulioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F75C546C21B3BE49009AA3DC /* Haulio */ = {
+			isa = PBXGroup;
+			children = (
+				F75C546D21B3BE49009AA3DC /* AppDelegate.swift */,
+				F75C546F21B3BE49009AA3DC /* ViewController.swift */,
+				F75C547121B3BE49009AA3DC /* Main.storyboard */,
+				F75C547421B3BE4A009AA3DC /* Assets.xcassets */,
+				F75C547621B3BE4A009AA3DC /* LaunchScreen.storyboard */,
+				F75C547921B3BE4A009AA3DC /* Info.plist */,
+			);
+			path = Haulio;
+			sourceTree = "<group>";
+		};
+		F75C548121B3BE4A009AA3DC /* HaulioTests */ = {
+			isa = PBXGroup;
+			children = (
+				F75C548221B3BE4A009AA3DC /* HaulioTests.swift */,
+				F75C548421B3BE4A009AA3DC /* Info.plist */,
+			);
+			path = HaulioTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F75C546921B3BE49009AA3DC /* Haulio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75C548721B3BE4A009AA3DC /* Build configuration list for PBXNativeTarget "Haulio" */;
+			buildPhases = (
+				F75C546621B3BE49009AA3DC /* Sources */,
+				F75C546721B3BE49009AA3DC /* Frameworks */,
+				F75C546821B3BE49009AA3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haulio;
+			productName = Haulio;
+			productReference = F75C546A21B3BE49009AA3DC /* Haulio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F75C547D21B3BE4A009AA3DC /* HaulioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75C548A21B3BE4A009AA3DC /* Build configuration list for PBXNativeTarget "HaulioTests" */;
+			buildPhases = (
+				F75C547A21B3BE4A009AA3DC /* Sources */,
+				F75C547B21B3BE4A009AA3DC /* Frameworks */,
+				F75C547C21B3BE4A009AA3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75C548021B3BE4A009AA3DC /* PBXTargetDependency */,
+			);
+			name = HaulioTests;
+			productName = HaulioTests;
+			productReference = F75C547E21B3BE4A009AA3DC /* HaulioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F75C546221B3BE49009AA3DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = DerickProductions;
+				TargetAttributes = {
+					F75C546921B3BE49009AA3DC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F75C547D21B3BE4A009AA3DC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F75C546921B3BE49009AA3DC;
+					};
+				};
+			};
+			buildConfigurationList = F75C546521B3BE49009AA3DC /* Build configuration list for PBXProject "Haulio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F75C546121B3BE49009AA3DC;
+			productRefGroup = F75C546B21B3BE49009AA3DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F75C546921B3BE49009AA3DC /* Haulio */,
+				F75C547D21B3BE4A009AA3DC /* HaulioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F75C546821B3BE49009AA3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75C547821B3BE4A009AA3DC /* LaunchScreen.storyboard in Resources */,
+				F75C547521B3BE4A009AA3DC /* Assets.xcassets in Resources */,
+				F75C547321B3BE49009AA3DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75C547C21B3BE4A009AA3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F75C546621B3BE49009AA3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75C547021B3BE49009AA3DC /* ViewController.swift in Sources */,
+				F75C546E21B3BE49009AA3DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75C547A21B3BE4A009AA3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75C548321B3BE4A009AA3DC /* HaulioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F75C548021B3BE4A009AA3DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75C546921B3BE49009AA3DC /* Haulio */;
+			targetProxy = F75C547F21B3BE4A009AA3DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F75C547121B3BE49009AA3DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F75C547221B3BE49009AA3DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F75C547621B3BE4A009AA3DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F75C547721B3BE4A009AA3DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F75C548521B3BE4A009AA3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F75C548621B3BE4A009AA3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F75C548821B3BE4A009AA3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMGP992CD8;
+				INFOPLIST_FILE = Haulio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DerickProductions.Haulio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F75C548921B3BE4A009AA3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMGP992CD8;
+				INFOPLIST_FILE = Haulio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DerickProductions.Haulio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F75C548B21B3BE4A009AA3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMGP992CD8;
+				INFOPLIST_FILE = HaulioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DerickProductions.HaulioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haulio.app/Haulio";
+			};
+			name = Debug;
+		};
+		F75C548C21B3BE4A009AA3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMGP992CD8;
+				INFOPLIST_FILE = HaulioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DerickProductions.HaulioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haulio.app/Haulio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F75C546521B3BE49009AA3DC /* Build configuration list for PBXProject "Haulio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75C548521B3BE4A009AA3DC /* Debug */,
+				F75C548621B3BE4A009AA3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75C548721B3BE4A009AA3DC /* Build configuration list for PBXNativeTarget "Haulio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75C548821B3BE4A009AA3DC /* Debug */,
+				F75C548921B3BE4A009AA3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75C548A21B3BE4A009AA3DC /* Build configuration list for PBXNativeTarget "HaulioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75C548B21B3BE4A009AA3DC /* Debug */,
+				F75C548C21B3BE4A009AA3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F75C546221B3BE49009AA3DC /* Project object */;
+}
